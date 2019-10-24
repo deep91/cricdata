@@ -1,0 +1,60 @@
+<h1> {{title}}</h1>
+
+<nav>
+        <a routerLink="/">Home</a>
+        <a routerLink="/livescores">Livescores</a>
+        <a routerLink="/series">Series</a>
+        <a routerLink="/matches">Matches</a>
+        <a routerLink="/rankings">Rankings</a>
+        <a routerLink="/players">Players</a>
+        <a routerLink="/news">News</a>
+ </nav>
+
+
+<router-outlet></router-outlet>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cricdata</title>
+		<link rel="icon" href="./resources/images/logo.ico" type="image/x-icon"/>
+		<link rel="stylesheet" href="./resources/stylesheets/main.css" type="text/css"/>
+		<link href="./resources/stylesheets/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div id="header-logo">
+				<span title="Cricket Entertainment">Cricdata</span>
+			</div>
+			<div id="header-menu">
+				<nav>
+					<a href="#">
+						<i class="fas fa-user fa-2x"></i>
+						<span>Players</span>
+					</a>
+					<a href="#">
+						<i class="fas fa-users fa-2x"></i>
+						<span>Teams</span>
+					</a>
+					<a href="#">
+						<i class="fas fa-trophy fa-2x"></i>
+						<span>Series</span>
+					</a>
+					<a href="#">
+						<i class="fas fa-chart-area fa-2x"></i>
+						<span>Stats</span>
+					</a>
+				</nav>
+			</div>
+			<div id="header-search">
+				<input type="text" placeholder="Search..">
+				<button type="submit"><img src="./resources/images/search_button.svg" alt="magnifying-glass"></button>
+			</div>
+			<div id="mega-menu">
+				<span><i class="fas fa-th fa-2x"></i></span>
+			</div>
+			<div id="user-profile">
+				<span>Hi, Sathish</span>
+			</div>
+		</header>
+	</body>
+</html>
