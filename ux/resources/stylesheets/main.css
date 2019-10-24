@@ -1,0 +1,104 @@
+input:focus,select:focus,textarea:focus,button:focus {
+    outline: none;
+}
+
+header {
+	background-color: rgba(229,237,234,1);
+	width: 100%;
+	height: 99px;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+#header-logo {
+	position: relative;
+	margin: 30px 0px 10px 30px;;
+	float: left;
+}
+
+#header-logo span {
+	font-family: Phosphate;
+	font-size: 2.1em;
+	color: rgba(58,105,88,1);	
+}
+
+#header-menu {
+	display: inline-block;
+    position: relative;
+    margin: 30px 0px 10px 100px;
+    float: left;
+}
+
+#header-menu nav a {
+	color: black;
+	display: inline-block;
+	position: relative;
+    text-decoration: none !important;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#header-menu nav a span {
+	display: block;
+}
+
+#header-search {
+	float: left;
+	display: inline;
+	position: relative;
+	margin: 40px 0px 10px 300px;
+}
+
+#header-search input[type=text] {
+	border-radius: 30px;
+	width: 100%;
+	height: 30px;
+	border:none;
+	font-size: 18px;
+	padding-left: 10px;
+	background-color: rgba(124,134,125,1);
+	font-family: Athelas;
+	font-style: italic;
+	font-weight: normal;
+	color: black;
+}
+
+#header-search input[type=text]::-webkit-input-placeholder {
+	font-family: Athelas;
+	font-style: italic;
+	font-weight: normal;
+	color: rgba(244,244,244,1)
+}
+
+#header-search button {
+	border:none;
+	background-color: transparent;
+	font-size: 18px;	
+	position:absolute;
+	right: 0px;
+	top: 5px;
+	padding: 0px;
+}
+
+#header-search button:hover{
+	cursor:pointer;
+}
+
+#mega-menu {
+	float: left;
+	display: inline;
+	position: relative;
+	margin: 40px 0px 10px 45px;
+}
+
+#user-profile {
+	float: left;
+	display: inline;
+	position: relative;
+	margin: 47px 0px 10px 30px;
+}
+
